@@ -1,0 +1,38 @@
+local LoaderConfig = {
+    Enabled = true,
+    SupportedGames = {
+        [72250771850707] = "waiting to obfuscate script", -- I WANNA RUN AWAY TOWER
+        [103661214879860] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/abilities-tower-auto-win.lua.txt", -- Abilities tower
+    },
+    NotificationSettings = {
+        Title = "Game Loader",
+        Duration = 5
+    }
+}
+
+if not LoaderConfig.Enabled then
+    return 
+end
+
+local currentPlaceId = game.PlaceId
+
+if LoaderConfig.SupportedGames[currentPlaceId] then
+    local success, err = pcall(function()
+        loadstring(game:HttpGet(LoaderConfig.SupportedGames[currentPlaceId]))()
+    end)
+    
+    if not success then
+        warn("Failed to load game script: " .. err)
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+            Title = LoaderConfig.NotificationSettings.Title,
+            Text = "Failed to load game script",
+            Duration = LoaderConfig.NotificationSettings.Duration
+        })
+    end
+else
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = LoaderConfig.NotificationSettings.Title,
+        Text = "Game not supported",
+        Duration = LoaderConfig.NotificationSettings.Duration
+    })
+end
