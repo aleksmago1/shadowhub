@@ -2,7 +2,7 @@ local LoaderConfig = {
     Enabled = true,
     SupportedGames = {
         [72250771850707] = "waiting to obfuscate script", -- I WANNA RUN AWAY TOWER
-        [103661214879860] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/abilities-tower-auto-win.lua.txt", -- Abilities tower
+        [103661214879860] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/Protected_2799871034071738.lua.txt", -- Abilities tower
     },
     NotificationSettings = {
         Title = "Game Loader",
