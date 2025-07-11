@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/Protected_2799871034071738.lua.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/Shadow-hub-loader"))()
