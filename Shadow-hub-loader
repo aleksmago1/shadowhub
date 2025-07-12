@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/obfuscated_script-1752336533500.lua.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/obfuscated_script-1752344888428.lua.txt"))()
 local LoaderConfig = {
     Enabled = true,
     SupportedGames = {
