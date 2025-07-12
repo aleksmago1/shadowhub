@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/something-special.lua.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/Something-special-2.lua.txt"))()
 local LoaderConfig = {
     Enabled = true,
     SupportedGames = {
