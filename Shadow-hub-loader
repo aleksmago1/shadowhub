@@ -26,7 +26,7 @@ if LoaderConfig.SupportedGames[currentPlaceId] then
         warn("Failed to load game script: " .. err)
         game:GetService("StarterGui"):SetCore("SendNotification", {
             Title = LoaderConfig.NotificationSettings.Title,
-            Text = "Failed to load game script",
+            Text = "Failed to load game script, try to re execute the script",
             Duration = LoaderConfig.NotificationSettings.Duration
         })
     end
