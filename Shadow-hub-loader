@@ -4,7 +4,7 @@ local LoaderConfig = {
         [72250771850707] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/Protected_3038478597792348.lua.txt", -- I WANNA RUN AWAY TOWER
         [103661214879860] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/Protected_2799871034071738.lua.txt", -- Abilities tower
         [133018535489761] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/Protected_3038478597792348.lua.txt", -- Troll kids tower
-        [126803389599637] = "", -- Anime Tower
+        [126803389599637] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/Protected_2784701568760450.lua.txt", -- Anime Tower
     },
     NotificationSettings = {
         Title = "Game Loader",
