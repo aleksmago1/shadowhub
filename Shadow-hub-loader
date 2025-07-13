@@ -10,6 +10,7 @@ local LoaderConfig = {
         [107220386751453] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/obfuscated_script-1752385395768.lua.txt", -- Anime Hero Tower
         [70696786991815] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/obfuscated_script-1752389746456.lua.txt", -- Squid Game Troll Tower
         [92311380085534] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/obfuscated_script-1752397058760.lua.txt", -- HERO TOWER
+        [126803389599637] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/fly.lua.txt", -- Anime Tower (by infinity studio)
     },
     NotificationSettings = {
         Title = "Game Loader",
