@@ -12,6 +12,7 @@ local LoaderConfig = {
         [92311380085534] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/obfuscated_script-1752397058760.lua.txt", -- HERO TOWER
         [126803389599637] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/fly.lua.txt", -- Anime Tower (by infinity studio) {need to have a script}
         [136892544628283] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/fly.lua.txt", -- Anime troll tower {need to have a script}
+        [189707] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/obfuscated_script-1752412884206.lua.txt", -- Natural Disaster Survival
     },
     NotificationSettings = {
         Title = "Game Loader",
