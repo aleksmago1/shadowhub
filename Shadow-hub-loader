@@ -20,6 +20,7 @@ local LoaderConfig = {
         [115726899804555] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/Troll-pin-tower-2", -- Troll pin tower 2
         [71575927487690] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/Build-a-brainrot", -- Build a brainrot
         [137505724366535] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/Boxing-tower", -- Boxing Tower
+        [123741668193208] = "https://raw.githubusercontent.com/aleksmago1/shadowhub/refs/heads/main/Jump-rope",
     },
     NotificationSettings = {
         Title = "Game Loader",
