@@ -37,6 +37,11 @@ local currentPlaceId = game.PlaceId
 if LoaderConfig.SupportedGames[currentPlaceId] then
     local success, err = pcall(function()
         loadstring(game:HttpGet(LoaderConfig.SupportedGames[currentPlaceId]))()
+        game:GetService("StarterGui"):SetCore("SendNotification",{
+            Title = "SHADOW HUB";
+            Text = "The script has been patched? join our server and report it!";
+            Duration = 5;
+        })
     end)
     
     if not success then
