@@ -39,7 +39,7 @@ if LoaderConfig.SupportedGames[currentPlaceId] then
         loadstring(game:HttpGet(LoaderConfig.SupportedGames[currentPlaceId]))()
         game:GetService("StarterGui"):SetCore("SendNotification",{
             Title = "SHADOW HUB";
-            Text = "The script has been patched? join our server and report it!";
+            Text = "This script is discontinued, maybe in the future it will come back";
             Duration = 5;
         })
     end)
